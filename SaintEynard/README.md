@@ -2,7 +2,7 @@
 
 The directory contains the log files of frames sent by a LoRaWAN endpoint installed on the top of Fort du Saint Eynard.
 
-The exact location is [45.23513,5.7617](https://www.openstreetmap.org/search?query=45.23513%2C5.7617#map=19/45.23513/5.76170). GPS altitude is 1350 meters.
+The exact location is [45.23513,5.7617](https://www.openstreetmap.org/search?query=45.23513%2C5.7617#map=19/45.23513/5.76170). The GPS altitude is 1350 meters.
 
 ## LoRaWAN Emitter
 
@@ -18,7 +18,7 @@ Coming soon
 
 ## Log from Requea
 
-The endpoint frames has been received by a Multitech gateway installed at [Refuge du Goûter](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) Altitude: 3835 meters.
+The endpoint frames has been received by a Multitech gateway installed at [Refuge du Goûter](https://en.wikipedia.org/wiki/Go%C3%BBter_Hut) [Location](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) Altitude: 3835 meters.
 
 The distance is approximatly 107 kms in LoS. (Line-of-Sight)
 
