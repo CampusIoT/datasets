@@ -22,7 +22,10 @@ The endpoint frames has been received by a Multitech gateway installed at [Refug
 
 The distance is approximatly 107 kms in LoS (Line-of-Sight).
 
-> The [Fresnel zone](https://en.wikipedia.org/wiki/Fresnel_zone) radius is 96 meters and the [free-space path loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) is 131.80 dB.
+> The [Fresnel zone](https://en.wikipedia.org/wiki/Fresnel_zone) radius is 96 meters and the [free-space path loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) is 131.80 dB. For your information, FSPL is 145 dB for a [LEO satellite](https://en.wikipedia.org/wiki/Low_Earth_orbit) (500 kms) and 182 dB for a [GEO satellite](https://en.wikipedia.org/wiki/Geostationary_orbit) (35786 kms).
+
+> LoRa Sensitivity is specified with a PER=10%, receiving 12 Byte packets, all under nominal temperature and voltage conditions. According the [Semtech SX1303 datasheet](https://semtech.file.force.com/sfc/dist/version/download/?oid=00DE0000000JelG&ids=0682R000009MnJmQAK&d=%2Fa%2F2R000000Hlli%2FTe0cB6.fNWAPfxRfoFz38R6LOTf3sLAJhD4CpS2RwFc&operationContext=DELIVERY&asPdf=true&viewId=05H3n000002u0NoEAI&dpt=), LoRa sensitivity is measured with a Semtech SX1250 front-end, an LNA with 18dB of gain and 1.5 dB of Noise Figure. The values given in the table 3-6 are : -141 dB @ ```SF12BW125``` (```DR0```) to -129 dB @ ```SF7BW125``` (```DR5```).
+
 
 Coming soon
 
