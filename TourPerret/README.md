@@ -35,7 +35,7 @@ The fields prefixed by ```_``` are calculated and  added to the dataset sent by 
 * ```_distance``` : the set of distances between the endpoint and the gateway 
 * ```_timeOfEmission``` : time of emission (in nanosecond) since the ```time``` of the reception by the gateway.  The ```time``` field is sometime missing in indoor gateways.
 
-> The ``òbject``` field contains the measurement of the weather conditions at the top of the tower. For Elsys EMS endpoint, the ```accMotion``` field counts the shock inside the steel structure triggered by gusts of wind. The weather conditions can be correlated with weather datas from services such as OpenWeatherMap.
+> The ```object``` field contains the measurement of the weather conditions at the top of the tower. For Elsys EMS endpoint, the ```accMotion``` field counts the shock inside the steel structure triggered by gusts of wind. The weather conditions can be correlated with weather datas from services such as OpenWeatherMap.
 
 ## Citation
 
