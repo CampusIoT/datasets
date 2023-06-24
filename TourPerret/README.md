@@ -61,8 +61,8 @@ gunzip -c tourperret.log.gz | jq . | more
 
 Credit: Didier Donsez, Nicolas Albarel, Nicolas Palix
 
-![Tour Perret](./media/tourperret_01.jpg
-![Eastern panorama from the Tour Perret top roof](./media/tourperret_top_pano_east.jpg
-![Elsys EMS](./media/elsys_ems_tourperret_01.jpg
-![Elsys EMS](./media/elsys_ems_tourperret_02.jpg
-![Elsys EMS and Wyres](./media/elsys_ems_wyres_tourperret_03.jpg
+![Tour Perret](./media/tourperret_01.jpg)
+![Eastern panorama from the Tour Perret top roof](./media/tourperret_top_pano_east.jpg)
+![Elsys EMS](./media/elsys_ems_tourperret_01.jpg)
+![Elsys EMS](./media/elsys_ems_tourperret_02.jpg)
+![Elsys EMS and Wyres](./media/elsys_ems_wyres_tourperret_03.jpg)
