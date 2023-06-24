@@ -47,6 +47,10 @@ Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames
 * Olivier Alphand (Université Grenoble Alpes LIG)
 * Nicolas Albarel (ANS Innovation)
 
+## Thanks
+
+Special thanks to Valerie and Dorian, Direction Urbanisme et Aménagement de la ville de Grenoble.
+
 ## License
 [ODbL-1.0](LICENSE.txt)
 
