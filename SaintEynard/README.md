@@ -20,7 +20,9 @@ Coming soon
 
 The endpoint frames has been received by a Multitech gateway installed at [Refuge du Goûter](https://en.wikipedia.org/wiki/Go%C3%BBter_Hut) [Location](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) Altitude: 3835 meters.
 
-The distance is approximatly 107 kms in LoS. (Line-of-Sight)
+The distance is approximatly 107 kms in LoS (Line-of-Sight).
+
+> The [Fresnel zone](https://en.wikipedia.org/wiki/Fresnel_zone) radius is 96 meters and the [free-space path loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) is 131.80 dB.
 
 Coming soon
 
