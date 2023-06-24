@@ -1,0 +1,5 @@
+Open Data Commons Open Database License v1.0
+
+ODbL-1.0
+
+https://spdx.org/licenses/ODbL-1.0.html#licenseText
