@@ -11,7 +11,7 @@ Brands and models of the [indoor and outdoor gateways](https://campusiot.github.
 ## Endpoints
 
 * 4x [Elsys EMS](https://www.elsys.se/en/lora-ems/) 
-* 1x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) 
+* 1x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) v2 revC (SX1272, RF switch Skynet new)
 
 The endpoints are installed on four sides (SWW, SSE, NEE, NNW) of the top of the tower (into IP55 enclosures for Elsys EMS).
 
@@ -39,7 +39,7 @@ The fields prefixed by ```_``` are calculated and  added to the dataset sent by 
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, DOI: TBC
+Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, DOI: TBC on https://perscido.univ-grenoble-alpes.fr
 
 ## Authors
 
