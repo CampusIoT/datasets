@@ -39,7 +39,8 @@ The fields prefixed by ```_``` are calculated and  added to the dataset sent by 
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, DOI: TBC on https://perscido.univ-grenoble-alpes.fr
+Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, DOI: TBC, https://perscido.univ-grenoble-alpes.fr/datasets/DS395
+
 
 ## Authors
 
