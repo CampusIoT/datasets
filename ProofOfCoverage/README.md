@@ -12,6 +12,8 @@ The gateways send periodically frames to other gateways with various datarates a
 
 ## Dataset
 
+The archive file is available on the [PerSCiDO plateform](https://perscido.univ-grenoble-alpes.fr/datasets/DS396).
+
 The ```poc-*.log.gz``` files contains a dataset of 3418984 messages received between August 2021 and June 2023.
 
 > The logfile is k-anonymized for the gateway EUI and name. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
