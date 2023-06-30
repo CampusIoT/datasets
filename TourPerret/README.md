@@ -19,6 +19,8 @@ The endpoints are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS 
 
 ## Dataset
 
+The archive file is available on the [PerSCiDO plateform](https://perscido.univ-grenoble-alpes.fr/datasets/DS395).
+
 The ```tourperret.log.gz``` file contains a dataset of 421937 messages received between June 2021 and June 2023 (2 years). 
 
 > The logfile is k-anonymized for the gateway EUI and name. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
@@ -39,8 +41,7 @@ The fields prefixed by ```_``` are calculated and  added to the dataset sent by 
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, DOI: TBC, https://perscido.univ-grenoble-alpes.fr/datasets/DS395
-
+Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds395
 
 ## Authors
 
