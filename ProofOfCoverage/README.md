@@ -29,8 +29,7 @@ The fields prefixed by ```_``` are calculated and added to the dataset sent by t
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, "The Proof Of Coverage LoRaWAN frames dataset", 2023, DOI: TBC, https://perscido.univ-grenoble-alpes.fr/datasets/DS396
-
+Didier Donsez, Olivier Alphand, "The Proof Of Coverage LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds396
 
 ## Authors
 
