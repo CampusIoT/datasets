@@ -69,7 +69,7 @@ For instance:
 
 ## Citation
 
-Nicolas Albarel, Didier Donsez, Olivier Alphand, "The Tour Perret LoRa 2G4 frames dataset", 2023, DOI (in creation https://commons.datacite.org/doi.org?query=The+Tour+Perret+LoRa+2G4+frames+dataset)
+Nicolas Albarel, Didier Donsez, Olivier Alphand, "The Tour Perret LoRa 2G4 frames dataset", 2023, doi:10.18709/perscido.2023.07.ds397 (https://commons.datacite.org/doi.org?query=The+Tour+Perret+LoRa+2G4+frames+dataset)
 
 ## Authors
 
