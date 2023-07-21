@@ -50,6 +50,5 @@ for i in poc-*.log.gz; do gunzip -c $i; done | jq . | more
 ![Kerlink 27 dBm @ Fort du Saint Eynard](https://campusiot.github.io/images/kerlink-sainteynard.jpg)
 ![Multitech TDOA @ Phitem](https://campusiot.github.io/images/multitech+rtk-01.jpg)
 ![Kerlink iStation + Taoglas Barracuda 12 dBi @ IMAG](https://campusiot.github.io/images/stations-kerlink-imag.jpg)
-
-
-
+![Kerlink iStation @ Polytech Grenoble](https://campusiot.github.io/images/station-kerlink-polytech.jpg)
+![Kerlink @ Col du Lautaret](https://campusiot.github.io/images/station-kerlink-lautaret.jpg)
