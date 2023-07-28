@@ -1,5 +1,7 @@
 # Exploring dataset with DuckDB
 
+[DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management systemi. Data can be efficiently loaded from files in CSV, JSON, Parquet formats.
+
 ## Install DuckDB
 
 ```bash
@@ -41,6 +43,16 @@ select devEUI, avg(object.temperature), avg(object.dewpoint), avg(object.humidit
 
 select devEUI, avg(object.temperature), avg(object.pressure), avg(object.light) from frames where applicationName='WYRES_BASE' group by devEUI;
 
+```
+
+
+## Explore with SQL editors
+
+https://duckdb.org/docs/guides/sql_editors/harlequin
+
+```bash
+pip install harlequin
+harlequin
 ```
 
 ## Jupyter Notebook
