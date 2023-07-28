@@ -4,9 +4,14 @@
 
 ## Install DuckDB
 
+https://duckdb.org/docs/installation/
+
 ```bash
 brew install duckdb
+# for transient DB
 duckdb
+# for persistent DB (~275 MB on disk)
+duckdb tourperret.duckdb
 ```
 
 ## Query
