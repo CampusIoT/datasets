@@ -54,6 +54,9 @@ describe elsys;
 select devEUI, avg(object.temperature), avg(object.dewpoint), avg(object.humidity),
          avg(object.accMotion), avg(object.vdd)
 from elsys group by devEUI;
+
+COPY elsys TO 'elsys.parquet' (FORMAT PARQUET);
+COPY elsys TO 'elsys.csv' (FORMAT CSV);
 ```
 
 Import Wyres Base data
@@ -65,6 +68,9 @@ describe wyres;
 
 select devEUI, avg(object.temperature), avg(object.pressure), avg(object.light)
 from wyres group by devEUI;
+
+COPY wyres TO 'wyres.parquet' (FORMAT PARQUET);
+COPY wyres TO 'wyres.csv' (FORMAT CSV);
 ```
 
 ```sql
