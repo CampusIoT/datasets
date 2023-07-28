@@ -21,21 +21,23 @@ The endpoints are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS 
 
 The archive file is available on the [PerSCiDO plateform](https://perscido.univ-grenoble-alpes.fr/datasets/DS395).
 
-The ```tourperret.log.gz``` file contains a dataset of 421937 messages received between June 2021 and June 2023 (2 years). 
+The `tourperret.log.gz` [ndjson](http://ndjson.org/) file contains a dataset of 421937 messages received between June 2021 and June 2023 (2 years). 
 
-> The logfile is k-anonymized for the gateway EUI and name. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
+The fields prefixed by `_` are calculated and  added to the dataset sent by the LNS.
 
-The fields prefixed by ```_``` are calculated and  added to the dataset sent by the LNS.
+* `applicationName` : the brand and the model of the endpoint
+* `devEUI` : the devEUI of the endpoint (hashed)
+* `_date` : the archive date (human-readable string)
+* `_timestamp` : the millisecond epoch of the archive time
+* `data` : the hex-formatted frame payload (plain)
+* `object` : the frame payload decoded using the endpoint decoder
+* `_devLocation` : the static location of the endpoint
+* `txInfo` : the LoRaWAN transmission parameters 
+* `rxInfo` : the array of the radio parameters of the duplicated receptions by the gateways
+* `rxInfo[]._distance` : the set of distances between the endpoint and the gateway 
+* `_timeOfEmission` : time of emission (in nanosecond) since the `time` of the reception by the gateway.  The `time` field is sometime missing in indoor gateways.
 
-
-* ```applicationName``` : the brand and the model of the endpoint
-* ```_date``` : the millisecond epoch of the archive date
-* ```_timestamp``` : the millisecond epoch of the archive time
-* ```data``` : the frame payload (plain)
-* ```object``` : the frame payload decoded using the endpoint decoder
-* ```_devLocation``` : the static location of the endpoint
-* ```_distance``` : the set of distances between the endpoint and the gateway 
-* ```_timeOfEmission``` : time of emission (in nanosecond) since the ```time``` of the reception by the gateway.  The ```time``` field is sometime missing in indoor gateways.
+> Several fields are k-anonymized. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
 
 > The ```object``` field contains the measurement of the weather conditions at the top of the tower. For Elsys EMS endpoint, the ```accMotion``` field counts the shock inside the steel structure triggered by gusts of wind. The weather conditions can be correlated with weather datas from services such as OpenWeatherMap.
 
