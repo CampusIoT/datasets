@@ -27,7 +27,7 @@ The fields prefixed by ```_``` are calculated and added to the dataset sent by t
 * ```_distance``` : the set of distances between the endpoint and the gateway 
 * ```_timeOfEmission``` : time of emission (in nanosecond) since the ```time``` of the reception by the gateway. The ```time``` field is sometime missing in indoor gateways.
 
-> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
+> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by [Samuel Pélissier](https://orcid.org/0000-0002-3554-2585).
 
 ## Citation
 
