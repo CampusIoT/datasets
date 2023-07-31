@@ -49,3 +49,7 @@ Didier Donsez, Olivier Alphand, ["The Helium LoRaWAN frames dataset"](https://gi
 ## Kaggle
 
 Visit [CampusIoT @ Kaggle](https://www.kaggle.com/campusiot/datasets)
+
+## Gallery
+
+![Helium FTD](https://raw.githubusercontent.com/CampusIoT/datasets/main/Helium/media/helium_ftd.jpg)
