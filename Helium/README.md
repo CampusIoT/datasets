@@ -7,12 +7,12 @@ Frames has been collected between Friday 23 July 2021 14:19:52.154 (1627049992.1
 ## Endpoints
 
 Endpoints are described into the `endpoints.csv` file:
-* `ELSYS_EMS_B1C1_PERRET_SOO` (`A81758FFFE04B1C1`) : installed on the top of the Tour Perret. This endpoint is related to the [The Tour Perret LoRaWAN frames dataset](../TourPerret/). Outdoor.
+* `ELSYS_EMS_B1C1_PERRET_SOO` (`A81758FFFE04B1C1`) : [Elsys EMS endpoint](https://www.elsys.se/en/lora-ems/) installed on the top of the Tour Perret. This endpoint is related to the [The Tour Perret LoRaWAN frames dataset](https://github.com/CampusIoT/datasets/tree/main/TourPerret). Outdoor.
 * `IMST_C727B` (`33323431007C727B`) : [IMST iM880a protoboard](https://github.com/CampusIoT/tutorial/blob/master/im880a/im880a-ds75lx.md#figures) installed into the IMAG building rooms (fifth floor). Indoor.
 * `FTD_20CBC` (`0018B20000020CBC`) : mobile [Adeunis Field Test Device](https://www.adeunis.com/en/produit/ftd-network-tester/). Indoor/Outdoor.
 * `FTP_20CA0` (`0018B20000020CA0`) : mobile [Adeunis Field Test Device](https://www.adeunis.com/en/produit/ftd-network-tester/). Indoor/Outdoor.
 * `FTP_20CAC` (`0018B20000020CAC`) : mobile [Adeunis Field Test Device](https://www.adeunis.com/en/produit/ftd-network-tester/). Indoor/Outdoor.
-* `POC` (`6081F9835853819F`) : pseudo-endpoint for all the CampusIoT gateways. This endpoint is related to the [The Proof Of Coverage LoRaWAN frames dataset](../ProofOfCoverage/). mainly outdoor gateways.
+* `POC` (`6081F9835853819F`) : pseudo-endpoint for all the CampusIoT gateways. This endpoint is related to the [The Proof Of Coverage LoRaWAN frames dataset](https://github.com/CampusIoT/datasets/tree/main/ProofOfCoverage). mainly outdoor gateways.
 
 ## Distance
 
