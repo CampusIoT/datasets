@@ -32,9 +32,17 @@ The location of the POC gateways are geo-obfuscated for the sake of privacy.
 
 GeoJSON files has been generated from `*.ndjson.gz` files. Emitters are in green and hotspots are in red.
 
+## Authors
+
+* Didier Donsez (Université Grenoble Alpes LIG)
+* Olivier Alphand (Université Grenoble Alpes LIG)
+
 ## Citation
 
 Didier Donsez, Olivier Alphand, ["The Helium LoRaWAN frames dataset"](https://github.com/CampusIoT/datasets/tree/main/Helium), 2023, DOI is coming soon.
+
+## License
+[ODbL-1.0](LICENSE.txt)
 
 ## Kaggle
 
