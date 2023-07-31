@@ -28,7 +28,7 @@ The location of the POC gateways are geo-obfuscated for the sake of privacy.
 
 > Geo-obfuscation uses simply the [geohashing](https://en.wikipedia.org/wiki/Geohash) with a length equals to 6.
 
-> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
+> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by [Samuel Pélissier](https://orcid.org/0000-0002-3554-2585).
 
 ## GeoJSON
 
