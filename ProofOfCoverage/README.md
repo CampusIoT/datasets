@@ -27,6 +27,8 @@ The fields prefixed by ```_``` are calculated and added to the dataset sent by t
 * ```_distance``` : the set of distances between the endpoint and the gateway 
 * ```_timeOfEmission``` : time of emission (in nanosecond) since the ```time``` of the reception by the gateway. The ```time``` field is sometime missing in indoor gateways.
 
+> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
+
 ## Citation
 
 Didier Donsez, Olivier Alphand, "The Proof Of Coverage LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds396

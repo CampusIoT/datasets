@@ -39,9 +39,11 @@ The fields prefixed by `_` are calculated and  added to the dataset sent by the 
 * `rxInfo[]._distance` : the set of distances between the endpoint and the gateway 
 * `rxInfo[]._distance._timeOfEmission` : time of emission (in nanosecond) since the `time` of the reception by the gateway.  The `time` field is sometime missing in indoor gateways.
 
-> Several fields are k-anonymized. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
-
 > The ```object``` field contains the measurement of the weather conditions at the top of the tower. For Elsys EMS endpoint, the ```accMotion``` field counts the shock inside the steel structure triggered by gusts of wind. The weather conditions can be correlated with weather datas from services such as OpenWeatherMap.
+
+> Several fields are k-anonymized for the sake of privacy. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
+
+> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
 
 ## Citation
 

@@ -65,6 +65,8 @@ For instance:
 {"addr": "fc00ac20", "rssi": -101, "snr": -6, "fcount": 1, "volt": 4104, "test": 3, "timestamp": "2023-03-15T08:18:27+00:00", "freq": 2479000000, "length": 15, "preamble": 8, "cr": "4/5", "sf": 10, "bw": 800}
 ```
 
+> Log files have been cleaned using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
+
 > The weather conditions can be correlated with weather datas from online services such as [OpenWeatherMap](https://openweathermap.org/city/3014728).
 
 ## Citation
