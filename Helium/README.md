@@ -1,6 +1,6 @@
 # The Helium LoRaWAN frames dataset
 
-The dataset contains 1551565 LoRaWAN frames sent by endpoints registered on the [Helium LoRaWAN network](https://explorer.helium.com/). It enables to analyze the LoRaWAN link quality with hotspots.
+The dataset contains 95795 LoRaWAN frames sent by endpoints registered on the [Helium LoRaWAN network](https://explorer.helium.com/). It enables to analyze the LoRaWAN link quality with hotspots.
 
 Frames has been collected between Friday 23 July 2021 14:19:52.154 (1627049992.154) to Friday 23 July 2021 14:19:52.154 (1690271047.756)
 
