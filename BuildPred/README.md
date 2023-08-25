@@ -14,6 +14,8 @@ Around 232 days of data are available for other features, without considering ho
 
 The [map of sensors installed into the tertirary](https://github.com/CampusIoT/datasets/tree/main/BuildPred/ground_plan_sensors.jpg) building is provided.
 
+![map of sensors installed into the tertirary](https://raw.githubusercontent.com/CampusIoT/datasets/main/BuildPred/ground_plan_sensors.jpg)
+
 ## Data format
 
 Each feature listed above amounts to one CSV file. Since sensors are named by the location into the building.
