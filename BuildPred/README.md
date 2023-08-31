@@ -50,7 +50,7 @@ The HVAC from Zone 1 have been changed for a more efficient one, over the 21st a
 
 ## Citation
 
-Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Cerin, "A smart tertiary building dataset", 2023, DOI: TBC
+Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Cerin, "A smart tertiary building dataset", 2023, DOI: [doi:10.18709/perscido.2023.08.ds398](https://doi.org/10.18709/perscido.2023.08.ds398)
 
 ## Authors
 
