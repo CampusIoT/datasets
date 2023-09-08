@@ -27,10 +27,12 @@ The distance is approximatly 107 kms in LoS (Line-of-Sight).
 > LoRa Sensitivity is specified with a PER=10%, receiving 12 Byte packets, all under nominal temperature and voltage conditions. According the [Semtech SX1303 datasheet](https://semtech.file.force.com/sfc/dist/version/download/?oid=00DE0000000JelG&ids=0682R000009MnJmQAK&d=%2Fa%2F2R000000Hlli%2FTe0cB6.fNWAPfxRfoFz38R6LOTf3sLAJhD4CpS2RwFc&operationContext=DELIVERY&asPdf=true&viewId=05H3n000002u0NoEAI&dpt=), LoRa sensitivity is measured with a Semtech SX1250 front-end, an LNA with 18dB of gain and 1.5 dB of Noise Figure. The values given in the table 3-6 are : -141 dB @ ```SF12BW125``` (```DR0```) to -129 dB @ ```SF7BW125``` (```DR5```).
 
 
+> Log files have been cleaned using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
+
 Coming soon
 
 ## Citation
-Didier Donsez, Mickael Langlais, Pierre Dubois, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2023, DOI: TBC
+Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2023, DOI: TBC
 
 ## Authors
 * Didier Donsez (Université Grenoble Alpes LIG)
@@ -45,3 +47,5 @@ Didier Donsez, Mickael Langlais, Pierre Dubois, Olivier Alphand, "The Saint Eyna
 
 ![Saint Eynard](wyres_sainteynard.jpg)
 Credit: Mickaël Langlais
+
+![LOS Fort Saint Eynard - Refuge du Gouter](maps_sainteynard-gouter.jpg)
