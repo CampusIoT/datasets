@@ -48,4 +48,4 @@ Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eyna
 ![Saint Eynard](wyres_sainteynard.jpg)
 Credit: Mickaël Langlais
 
-![LOS Fort Saint Eynard - Refuge du Gouter](maps_sainteynard-gouter.jpg)
+![LOS Fort Saint Eynard - Refuge du Gouter](maps-sainteynard-gouter.jpg)
