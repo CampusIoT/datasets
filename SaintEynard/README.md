@@ -34,6 +34,14 @@ Coming soon
 ## Citation
 Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2023, DOI: TBC
 
+
+## Utilities
+
+### Grafana dashboards
+
+[Dashboards to import](./grafana)
+
+
 ## Authors
 * Didier Donsez (Université Grenoble Alpes LIG)
 * Mickael Langlais (CNRS ISTERRE)
@@ -49,3 +57,4 @@ Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eyna
 Credit: Mickaël Langlais
 
 ![LOS Fort Saint Eynard - Refuge du Gouter](maps-sainteynard-gouter.jpg)
+![Grafana dashboard](grafana.jpg)
