@@ -4,11 +4,21 @@ The directory contains the log files of frames sent by LoRa gateways to other ga
 
 The gateways are installed in the Grenoble area by [LIG Lab](https://www.liglab.fr/). Brands and models of the [indoor and outdoor gateways](https://campusiot.github.io/images/gallery.html) are : Multitech (MTCDTIP2, MTCDTIP TDOA, MTCAP), Kerlink (Wirnet, iStation, Femto), RAK Wireless (RAK5146), Mikrotik (LAP8), Strataggem (ecoSignal), Semtech (Picocell, Corecell).
 
+This dataset can be used for studying :
+* LoRa modulation performance
+* Outliers in gateways installation
+  * degradation of gateway reception quality due to antenna destruction, EM disturbances, cable oxydation ...
+  * misplacement of the gateway locations
+  * ...
+
+
 ## Modus operandis
 
-The gateways are registered as ABP endpoints on [Chirpstack](https://www.chirpstack.io/) v3 LNS. ADR is disabled.
+The gateways are registered as ABP endpoints on [Chirpstack](https://www.chirpstack.io/) v3 LNS.
 
-The gateways send periodically frames to other gateways with various datarates and varions Tx powers.
+A [cron script](./scripts) publish periodically to gateways commands for sending uplink frames to other gateways at various datarates and at various Tx powers. The ADR of uplink frames is disabled.
+
+The payload of the received frames can be decoded with this [decoder](scripts/poc_decoder.js) by the LoRaWAN Network Server (LNS) on which endpoints are registered.
 
 ## Dataset
 
@@ -54,3 +64,4 @@ for i in poc-*.log.gz; do gunzip -c $i; done | jq . | more
 ![Kerlink iStation + Taoglas Barracuda 12 dBi @ IMAG](https://campusiot.github.io/images/media/large/stations-kerlink-imag.jpg)
 ![Kerlink iStation @ Polytech Grenoble](https://campusiot.github.io/images/media/large/station-kerlink-polytech.jpg)
 ![Kerlink @ Col du Lautaret](https://campusiot.github.io/images/media/large/station-kerlink-lautaret.jpg)
+[More ...](https://campusiot.github.io/images)
