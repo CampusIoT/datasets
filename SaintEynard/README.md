@@ -14,11 +14,11 @@ Two [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/
 
 The endpoint's frames has been received by indoor and outdoor gateways installed in the Grenoble aera by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3. 
 
-> Log files have been cleaned using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
+> The log files (ND-JSON format) have been cleaned using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
 
-> The logs is k-anonymized for the gateway EUI and name. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). Distance are computed with the GPS-acurate position of the gateways.
+> TTe gateway EUI and name are k-anonymized for . The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). Distance are computed with the GPS-acurate position of the gateways.
 
-Coming soon in [logs/](./logs)
+[ND-JSON logs](./logs)
 
 ## Dataset from Requea
 
