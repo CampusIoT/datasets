@@ -57,7 +57,13 @@ Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eyna
 ## Gallery
 
 ![Saint Eynard](wyres_sainteynard.jpg)
+
 Credit: Mickaël Langlais
 
+![Gateway Multitech Refuge du Gouter](multitech-refugegouter.jpg)
+
+Credit: Pierre Dubois
+
 ![LOS Fort Saint Eynard - Refuge du Gouter](maps-sainteynard-gouter.jpg)
+
 ![Grafana dashboard](grafana.jpg)
