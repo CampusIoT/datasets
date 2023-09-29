@@ -1,0 +1,16 @@
+{
+    "d1d1e80000000032": {
+        "name": "WYRES_32_SAINTEYNARD_DOOR",
+        "devaddr": "fc00ac77",
+        "latitude": 45.23513, 
+        "longitude": 5.7617,
+        "altitude": 1340
+    },
+    "d1d1e80000000033": {
+        "name": "WYRES_33_SAINTEYNARD_STATION",
+        "devaddr": "fc00af46",
+        "latitude": 45.23513, 
+        "longitude": 5.7617,
+        "altitude": 1350
+    }
+}
