@@ -17,7 +17,9 @@ Brands and models of the [indoor and outdoor gateways](https://campusiot.github.
 
 The endpoints are installed on four sides (SWW, SSE, NEE, NNW) of the top of the tower (into IP55 enclosures for Elsys EMS).
 
-The endpoints are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS with as OTAA Class A endpoint. ADR is enabled.
+Four endpoints (3x [Elsys EMS](https://www.elsys.se/en/lora-ems/) and 1x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md)) are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS with as OTAA Class A endpoint. ADR is enabled.
+
+One endpoint ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) is registered on [Helium LoRaWAN network](https://www.helium.com/lorawan) with as OTAA Class A endpoint. ADR is enabled.
 
 ## Dataset
 
@@ -43,7 +45,17 @@ The fields prefixed by `_` are calculated and  added to the dataset sent by the 
 
 > Several fields are k-anonymized for the sake of privacy. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway installation can be erroneous.
 
+> Distances are computed with the original locations of the emitter and the receiver.
+
 > Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by [Samuel Pélissier](https://orcid.org/0000-0002-3554-2585).
+
+## Bonus dataset
+
+The [NDJSON logfile](./ems-tourperret-A81758FFFE04B1C1.ndjson.gz) contains 12614 frames sent between 2023-01-04 to 2023-09-28 by the endpoint `A81758FFFE04B1C1` ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) registered on [Helium LoRaWAN network](https://www.helium.com/lorawan).
+
+> Several fields (hotspot names) are k-anonymized for the sake of privacy. The location of the hotspots has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the hotspots or from the static position set by the hotspot installation. The hotspot installation can be erroneous.
+
+> Distances are computed with the original locations of the emitter and the receiver.
 
 ## Citation
 
