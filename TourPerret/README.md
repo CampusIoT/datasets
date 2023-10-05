@@ -93,5 +93,7 @@ Credit: Didier Donsez, Nicolas Albarel, Nicolas Palix
 ![Elsys EMS](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/elsys_ems_tourperret_01.jpg)
 ![Elsys EMS](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/elsys_ems_tourperret_02.jpg)
 ![Elsys EMS and Wyres](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/elsys_ems_wyres_tourperret_03.jpg)
+![Wyres before installation](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/tour-perret-ftd_3wyres.jpg)
+![Wyres Indoor sensor](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/tour-perret-indoor-1.jpg)
 ![Grafana Wyres](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/grafana-wyres.jpg)
 ![Grafana Elsys EMS](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/grafana-ems.jpg)
