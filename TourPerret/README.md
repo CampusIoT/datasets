@@ -85,6 +85,16 @@ gunzip -c tourperret.log.gz | jq . | more
 
 [Dashboards to import](./grafana)
 
+### Jupyter notebooks
+
+[Notebooks for playing with datasets](./notebooks)
+
+## Extra endpoints
+
+3 new endpoints Wyres has been installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
+
+The messages will be added to the new version of the dataset.
+
 ## Gallery
 
 Credit: Didier Donsez, Nicolas Albarel, Nicolas Palix
