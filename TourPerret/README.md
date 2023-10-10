@@ -1,6 +1,6 @@
 # The Tour Perret LoRaWAN frames dataset
 
-The directory contains the log files of frames sent by LoRaWAN endpoints installed on the top of [Tour Perret](https://en.wikipedia.org/wiki/Perret_tower_(Grenoble)) in Grenoble, France.
+The directory contains the log files of frames sent by [LoRaWAN endpoints](./endpoints.json) installed on the top of [Tour Perret](https://en.wikipedia.org/wiki/Perret_tower_(Grenoble)) in Grenoble, France.
 
 > The Tour Perret, originally called La tour pour regarder les montagnes ("The tower for watching the mountains"), is an observation tower located in Grenoble, in the Paul Mistral public park. It is the first tower built in reinforced concrete in Europe.
 
@@ -91,7 +91,7 @@ gunzip -c tourperret.log.gz | jq . | more
 
 ## Extra endpoints
 
-3 new endpoints Wyres has been installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
+3 new [endpoints Wyres](./endpoints.json) has been installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
 
 The messages will be added to the new version of the dataset.
 

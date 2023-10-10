@@ -1,0 +1,77 @@
+{
+    "A81758FFFE04B1C1": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Side SWW",
+        "model": "Elsys EMS",
+        "operator": "Helium"
+    },
+    "a81758fffe04b1bf": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Side NEE",
+        "model": "Elsys EMS",
+        "operator": "Université Grenoble Alpes - CampusIoT"
+    },
+    "a81758fffe04b1c2": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Side NNW",
+        "model": "Elsys EMS",
+        "operator": "Université Grenoble Alpes - CampusIoT"
+    },
+    "a81758fffe04b1c0": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Side SSE",
+        "model": "Elsys EMS",
+        "operator": "Université Grenoble Alpes - CampusIoT"
+    },
+    "eb55ac951504d28d": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Side NNE",
+        "model": "Wyres Base",
+        "operator": "Université Grenoble Alpes - CampusIoT"
+    },
+    "d1d1e80000000055": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 290,
+        "installation": "Middle platform, Side SSE",
+        "model": "Wyres Base",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "since": "2023-10-05"
+    },
+    "d1d1e80000000056": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Side SWW",
+        "model": "Wyres Base",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "since": "2023-10-05"
+    },
+    "d1d1e80000000057": {
+        "name": "Tour Perret",
+        "latitude": 45.1847,
+        "longitude": 5.7352,
+        "altitude": 310,
+        "installation": "Top platform, Entrance",
+        "model": "Wyres Base",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "since": "2023-10-05"
+    }
+}
