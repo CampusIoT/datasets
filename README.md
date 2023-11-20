@@ -1,6 +1,6 @@
 # CampusIoT :: Datasets
 
-LoRa/LoRaWAN datasets related to [CampusIoT](https://campusiot.github.io/)
+## LoRa/LoRaWAN datasets related to [CampusIoT](https://campusiot.github.io/)
 
 * Samuel Pélissier, Mathieu Cunche, Vincent Roca, Didier Donsez (2022) CampusIoT anonymized LoRaWAN dataset,  [doi:10.18709/perscido.2022.06.ds369](https://doi.org/10.18709/perscido.2022.06.ds369) : 130 millions of LoRaWAN entries.
 * Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, [doi:10.18709/perscido.2023.06.ds395](https://doi.org/10.18709/perscido.2023.06.ds395): 421937 LoRaWAN entries.
@@ -11,3 +11,6 @@ LoRa/LoRaWAN datasets related to [CampusIoT](https://campusiot.github.io/)
 * Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, ["The Saint Eynard LoRaWAN frames dataset"](./SaintEynard), Coming soon
 
 See also [CampusIoT @ Kaggle](https://www.kaggle.com/campusiot/datasets)
+
+## Misc
+* [Pyphysim's notebooks](https://github.com/darcamo/pyphysim/tree/master/notebooks)
