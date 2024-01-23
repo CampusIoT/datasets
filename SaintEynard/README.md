@@ -22,7 +22,9 @@ The endpoint's frames has been received by indoor and outdoor gateways installed
 
 ## Dataset from Requea
 
-The endpoint frames has been received by a Multitech gateway installed at [Refuge du Goûter](https://en.wikipedia.org/wiki/Go%C3%BBter_Hut) [Location](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) Altitude: 3835 meters.
+The endpoint frames has been received by two Multitech MTCDT gateways installed at [Refuge du Goûter](https://en.wikipedia.org/wiki/Go%C3%BBter_Hut) [Location](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) Altitude: 3835 meters. 
+
+> `MTCD_Refuge_du_Gouter_LeftSide` is a brand-new R3 model (with SX1303 and two SX1250) isntalled at 13/01/2024.
 
 The distance is approximatly 109 kms in LoS (Line-of-Sight).
 
@@ -33,7 +35,8 @@ The distance is approximatly 109 kms in LoS (Line-of-Sight).
 [CSV file](./logs)
 
 ## Citation
-Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2023, DOI: TBC
+
+Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2024, DOI: TBC
 
 ## Utilities
 
