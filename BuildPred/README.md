@@ -62,6 +62,25 @@ Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Ceri
 * [Denis Trystram](https://www.linkedin.com/in/denis-trystram-a211174/) (Université Grenoble Alpes - LIG)
 * [Christophe Cérin](https://www.linkedin.com/in/christophe-c%C3%A9rin-829a3926/) (Université Sorbonne Paris Nord - LIPN)
 
+## Related papers
+
+Closson, L.; Cérin, C.; Donsez, D.; Baudouin, J.-L. Design of a Meaningful Framework for Time Series Forecasting in Smart Buildings. Information 2024, 15, 94. https://doi.org/10.3390/info15020094
+
+```bibtex
+@Article{info15020094,
+AUTHOR = {Closson, Louis and Cérin, Christophe and Donsez, Didier and Baudouin, Jean-Luc},
+TITLE = {Design of a Meaningful Framework for Time Series Forecasting in Smart Buildings},
+JOURNAL = {Information},
+VOLUME = {15},
+YEAR = {2024},
+NUMBER = {2},
+ARTICLE-NUMBER = {94},
+URL = {https://www.mdpi.com/2078-2489/15/2/94},
+ISSN = {2078-2489},
+DOI = {10.3390/info15020094}
+}
+```
+
 ## Licence
 
 [ODbL-1.0](https://spdx.org/licenses/ODbL-1.0.html#licenseText)
