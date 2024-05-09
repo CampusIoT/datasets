@@ -20,9 +20,9 @@ The endpoint's frames has been received by indoor and outdoor gateways installed
 
 [ND-JSON logs](./logs)
 
-## Dataset from Requea
+## Dataset from [Requea](https://www.requea.com/)
 
-The endpoint frames has been received by two Multitech MTCDT gateways installed at [Refuge du Goûter](https://en.wikipedia.org/wiki/Go%C3%BBter_Hut) [Location](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) Altitude: 3835 meters. 
+The endpoint frames has been received by two Multitech MTCDT gateways installed at [Refuge du Goûter](https://en.wikipedia.org/wiki/Go%C3%BBter_Hut) [Location](https://www.openstreetmap.org/search?query=Refuge%20du%20gouter#map=19/45.85108/6.83059) and operated by [Requea](https://www.requea.com/) at Altitude: 3835 meters.
 
 The `Timestamp` field is the relative unsigned 32-bits counter of microseconds of the SX130x concentrator chip.
 

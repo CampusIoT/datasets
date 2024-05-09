@@ -2,6 +2,8 @@
 
 This dataset gathers indoor environmental data and HVAC power consumption collected on a monitored tertirary building over 232 days. The building located into the eastern suburbs of Grenoble (France). Sensors across the building send a measure every 10 minutes, leading to the creation this dataset, after preprocessing.
 
+[Direct link to the .ZIP dataset](https://perscido.univ-grenoble-alpes.fr/datasets/DS398)
+
 Several features are monitored over the building:
 * 'CO2' monitored by [Adeunis Comfort CO2 sensors](https://www.adeunis.com/en/produit/iaq-co2-temperature-humidity/)
 * 'Temperature' monitored by [Adeunis Comfort sensors](https://www.adeunis.com/en/produit/comfort-temperature-humidity-2/) and [Adeunis Comfort CO2 sensors](https://www.adeunis.com/en/produit/iaq-co2-temperature-humidity/)
@@ -59,6 +61,25 @@ Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Ceri
 * [Jean-Luc Baudouin](https://www.linkedin.com/in/jean-luc-baudouin-08389614/) (Adeunis)
 * [Denis Trystram](https://www.linkedin.com/in/denis-trystram-a211174/) (Université Grenoble Alpes - LIG)
 * [Christophe Cérin](https://www.linkedin.com/in/christophe-c%C3%A9rin-829a3926/) (Université Sorbonne Paris Nord - LIPN)
+
+## Related papers
+
+Closson, L.; Cérin, C.; Donsez, D.; Baudouin, J.-L. Design of a Meaningful Framework for Time Series Forecasting in Smart Buildings. Information 2024, 15, 94. https://doi.org/10.3390/info15020094
+
+```bibtex
+@Article{info15020094,
+AUTHOR = {Closson, Louis and Cérin, Christophe and Donsez, Didier and Baudouin, Jean-Luc},
+TITLE = {Design of a Meaningful Framework for Time Series Forecasting in Smart Buildings},
+JOURNAL = {Information},
+VOLUME = {15},
+YEAR = {2024},
+NUMBER = {2},
+ARTICLE-NUMBER = {94},
+URL = {https://www.mdpi.com/2078-2489/15/2/94},
+ISSN = {2078-2489},
+DOI = {10.3390/info15020094}
+}
+```
 
 ## Licence
 
