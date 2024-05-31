@@ -6,3 +6,5 @@
 * urban (Grenoble)
 * urban (Lyon)
 
+## Experiments setup
+* [Firmwares, LNS and Backend](https://github.com/thingsat/lr-fhss)
