@@ -9,7 +9,11 @@ FILE=msg-20240707
 NODE_OPTIONS='--max-old-space-size=20000'
 
 # Extract only UP messages from gateways
-# TODO  
+# TODO
+# * [ ] add gateway location (from /stat and /rx)
+# * [ ] add netid and operator
+# * [ ] add anonymization (deveui, devaddr, gateway location, ...)
+
 transform() {
   LOGFILE=$1
   gunzip -c $LOGFILE.log.gz \
