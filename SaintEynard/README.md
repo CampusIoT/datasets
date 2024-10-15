@@ -14,11 +14,31 @@ Two [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/
 
 ## Dataset from CampusIoT
 
-The endpoint's frames has been received by indoor and outdoor gateways installed in the Grenoble area by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3. 
+The endpoint's frames has been received by indoor and outdoor gateways installed in the Grenoble area by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3.
 
-> The log files (ND-JSON format) have been cleaned using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
 
-> TTe gateway EUI and name are k-anonymized for pervising locations. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). Distance are computed with the GPS-acurate position of the gateways.
+The log files are compressed [ndjson](http://ndjson.org/) files (aka one JSON object per line).
+
+The fields prefixed by `_` are calculated and  added to the dataset sent by the LNS.
+
+* `deviceName` : the name of the endpoint
+* `devEUI` : the devEUI of the endpoint (hashed)
+* `_date` : the archive date (human-readable string)
+* `_timestamp` : the millisecond epoch of the archive time
+* `data` : the hex-formatted frame payload (plain)
+* `object` : the frame payload decoded using the endpoint decoder
+* `_devLocation` : the static location of the endpoint
+* `txInfo` : the LoRaWAN transmission parameters 
+* `rxInfo` : the array of the radio parameters of the duplicated receptions by the gateways
+* `rxInfo[]._distance` : the set of distances between the endpoint and the gateway 
+ 
+> The ```object``` field contains the measurement of the weather conditions at the top of the Fort. The weather conditions can be correlated with weather datas from services such as OpenWeatherMap.
+
+> Several fields (gateway name, gateway EUI) are k-anonymized for the sake of privacy. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the gateways or from the static position set by the gateway installation. The gateway static position can be erroneous.
+
+> Distances are computed with the original locations of the emitter and the receiver.
+
+> Log files have been cleaned and obfuscated using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by [Samuel Pélissier](https://orcid.org/0000-0002-3554-2585).
 
 [ND-JSON logs](./logs)
 
