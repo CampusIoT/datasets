@@ -13,19 +13,20 @@ Brands and models of the [indoor and outdoor gateways](https://campusiot.github.
 ## Endpoints
 
 * 4x [Elsys EMS](https://www.elsys.se/en/lora-ems/) 
-* 1x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) v2 revC (SX1272, RF switch Skynet new)
+* 3x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) v2 revC (SX1272, RF switch Skynet new)
 
-The endpoints are installed on four sides (SWW, SSE, NEE, NNW) of the top of the tower (into IP55 enclosures for Elsys EMS).
+The endpoints are installed on four sides (SWW, SSE, NEE, NNW) of the top of the tower (into IP55 enclosures for Elsys EMS) and inside the tower.
 
-Four endpoints (3x [Elsys EMS](https://www.elsys.se/en/lora-ems/) and 1x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md)) are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS with as OTAA Class A endpoint. ADR is enabled.
+Six endpoints (3x [Elsys EMS](https://www.elsys.se/en/lora-ems/) and 3x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md)) are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS with as OTAA Class A endpoint. ADR is enabled.
 
 One endpoint ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) is registered on [Helium LoRaWAN network](https://www.helium.com/lorawan) with as OTAA Class A endpoint. ADR is enabled.
 
 ## Dataset
 
-The archive file is available on the [PerSCiDO plateform](https://perscido.univ-grenoble-alpes.fr/datasets/DS395).
+The `tourperret.log.gz` [ndjson](http://ndjson.org/) file contains a dataset of 421937 messages received between 2021-06-25 and 2023-06-23 (2 years). The archive file is available on the [PerSCiDO plateform](https://perscido.univ-grenoble-alpes.fr/datasets/DS395).
 
-The `tourperret.log.gz` [ndjson](http://ndjson.org/) file contains a dataset of 421937 messages received between June 2021 and June 2023 (2 years). 
+The `tourperret-2.log.gz` [ndjson](http://ndjson.org/) file contains a dataset of 443129 messages received between 2023-06-23 and 2024-10-08 (1 year 4 months). This log contains 3 new [endpoints Wyres](./endpoints.json) installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
+
 
 The fields prefixed by `_` are calculated and  added to the dataset sent by the LNS.
 
@@ -51,7 +52,9 @@ The fields prefixed by `_` are calculated and  added to the dataset sent by the 
 
 ## Bonus dataset
 
-The [NDJSON logfile](./ems-tourperret-A81758FFFE04B1C1.ndjson.gz) contains 12614 frames sent between 2023-01-04 to 2023-09-28 by the endpoint `A81758FFFE04B1C1` ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) registered on [Helium LoRaWAN network](https://www.helium.com/lorawan).
+The [NDJSON logfile `ems-tourperret-A81758FFFE04B1C1.ndjson.gz`](./ems-tourperret-A81758FFFE04B1C1.ndjson.gz) contains 12614 frames sent between 2023-01-04 to 2023-09-28 by the endpoint `A81758FFFE04B1C1` ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) registered on [Helium LoRaWAN network](https://www.helium.com/lorawan).
+
+The [NDJSON logfile `ems-tourperret-A81758FFFE04B1C1-2.ndjson.gz`](./ems-tourperret-A81758FFFE04B1C1-2.ndjson.gz) contains 20351 frames sent between 2023-06-23 and 2024-07-11 by the endpoint `A81758FFFE04B1C1` ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) registered on [Helium LoRaWAN network](https://www.helium.com/lorawan).
 
 > Several fields (hotspot names) are k-anonymized for the sake of privacy. The location of the hotspots has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). The precision is 6 (±0.61 km (0.38 mi; 610 m)). Distance are computed with the GPS-acurate position of the hotspots or from the static position set by the hotspot installation. The hotspot installation can be erroneous.
 
@@ -79,6 +82,8 @@ Special thanks to Valerie and Dorian, Direction Urbanisme et Aménagement de la 
 ```bash
 gunzip -c tourperret.log.gz | wc -l
 gunzip -c tourperret.log.gz | jq . | more
+gunzip -c tourperret-2.log.gz | wc -l
+gunzip -c tourperret-2.log.gz | jq . | more
 ```
 
 ### Grafana dashboards
@@ -88,12 +93,6 @@ gunzip -c tourperret.log.gz | jq . | more
 ### Jupyter notebooks
 
 [Notebooks for playing with datasets](./notebooks)
-
-## Extra endpoints
-
-3 new [endpoints Wyres](./endpoints.json) has been installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
-
-The messages will be added to the new version of the dataset.
 
 ## Gallery
 
