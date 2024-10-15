@@ -6,6 +6,8 @@ The directory contains the log files of frames sent by [LoRaWAN endpoints](./end
 
 The endpoints' frames has been received by indoor and outdoor gateways installed in the Grenoble aera by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3.
 
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Internet of Thing, Sensor networks
+
 ## Gateways
 
 Brands and models of the [indoor and outdoor gateways](https://campusiot.github.io/images/gallery.html) are : Multitech (MTCDTIP2, MTCDTIP TDOA, MTCAP), Kerlink (Wirnet, iStation, Femto), RAK Wireless (RAK5146), Mikrotik (LAP8), Strataggem (ecoSignal).
@@ -62,7 +64,7 @@ The [NDJSON logfile `ems-tourperret-A81758FFFE04B1C1-2.ndjson.gz`](./ems-tourper
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds395
+Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds395 [HAL](https://hal.science/hal-04737487)
 
 ## Authors
 

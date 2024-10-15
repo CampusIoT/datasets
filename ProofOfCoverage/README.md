@@ -11,6 +11,7 @@ This dataset can be used for studying :
   * misplacement of the gateway locations
   * ...
 
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Internet of Thing, Sensor networks
 
 ## Modus operandis
 
@@ -41,7 +42,7 @@ The fields prefixed by ```_``` are calculated and added to the dataset sent by t
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, "The Proof Of Coverage LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds396
+Didier Donsez, Olivier Alphand, "The Proof Of Coverage LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds396 [HAL](https://hal.science/hal-04737475)
 
 ## Authors
 

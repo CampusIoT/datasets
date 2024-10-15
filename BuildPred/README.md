@@ -4,6 +4,10 @@ This dataset gathers indoor environmental data and HVAC power consumption collec
 
 [Direct link to the .ZIP dataset](https://perscido.univ-grenoble-alpes.fr/datasets/DS398)
 
+Keywords: Smart Building, Machine Learning, Internet of Things, Sensor networks, LoRAWAN
+
+## LoRaWAN endpoints
+
 Several features are monitored over the building:
 * 'CO2' monitored by [Adeunis Comfort CO2 sensors](https://www.adeunis.com/en/produit/iaq-co2-temperature-humidity/)
 * 'Temperature' monitored by [Adeunis Comfort sensors](https://www.adeunis.com/en/produit/comfort-temperature-humidity-2/) and [Adeunis Comfort CO2 sensors](https://www.adeunis.com/en/produit/iaq-co2-temperature-humidity/)
@@ -22,7 +26,7 @@ The [map of sensors installed into the tertirary](https://github.com/CampusIoT/d
 
 Each feature listed above amounts to one CSV file. Since sensors are named by the location into the building.
 
-The Adeunis Comfort CO2 sensors monitor temperature and CO2, names can be redundant between CO2 and temperature files.
+The [Adeunis Comfort CO2 sensors](https://www.adeunis.com/en/produit/iaq-co2-temperature-humidity/) monitor temperature and CO2, names can be redundant between CO2 and temperature files.
 
 The first column contains timestamps of measures in milliseconds and each next column contains the measurements of a different sensor.
 
@@ -52,7 +56,7 @@ The HVAC from Zone 1 have been changed for a more efficient one, over the 21st a
 
 ## Citation
 
-Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Cerin, "BuildPred: A smart tertiary building dataset", 2023, DOI: [doi:10.18709/perscido.2023.08.ds398](https://doi.org/10.18709/perscido.2023.08.ds398)
+Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Cerin, "BuildPred: A smart tertiary building dataset", 2023, DOI: [doi:10.18709/perscido.2023.08.ds398](https://doi.org/10.18709/perscido.2023.08.ds398) [HAL](https://hal.science/hal-04737323)
 
 ## Authors
 
