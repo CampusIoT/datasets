@@ -4,6 +4,8 @@ The directory contains the log files of frames sent by LoRaWAN endpoints install
 
 The exact location is [45.23513,5.7617](https://www.openstreetmap.org/search?query=45.23513%2C5.7617#map=19/45.23513/5.76170). The GPS altitude is 1350 meters.
 
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Internet of Thing, Sensor networks
+
 ## LoRaWAN Emitter
 
 Two [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) :
@@ -38,7 +40,7 @@ The distance is approximatly 109 kms in LoS (Line-of-Sight).
 
 ## Citation
 
-Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2024, DOI: TBC
+Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eynard LoRaWAN frames dataset", 2024, DOI: Coming Soon [HAL](https://hal.science/hal-04737520)
 
 ## Utilities
 
