@@ -1,24 +1,24 @@
 # The Saint Eynard LoRaWAN frames dataset
 
-The directory contains the log files of frames sent by LoRaWAN endpoints installed on the top of [Fort du Saint Eynard](https://fr.wikipedia.org/wiki/Fort_du_Saint-Eynard).
+The directory contains the log files of 79382 frames sent by two LoRaWAN endpoints installed on the top of [Fort du Saint Eynard](https://fr.wikipedia.org/wiki/Fort_du_Saint-Eynard). The time range is from 2023-06-23 to 2024-09-16 (~15 months)
 
 The exact location is [45.23513,5.7617](https://www.openstreetmap.org/search?query=45.23513%2C5.7617#map=19/45.23513/5.76170). The GPS altitude is 1350 meters.
 
-Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Internet of Thing, Sensor networks
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Sensor networks
 
 ## LoRaWAN Emitter
 
 Two [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) :
-* `WYRES_32_SAINTEYNARD_DOOR`: `DevEUI`=`d1d1e80000000032`, `DevAddr`=`fc00ac77` (indoor into a technical room)
-* `WYRES_33_SAINTEYNARD_STATION`: `DevEUI`=`d1d1e80000000033`, `DevAddr`=`fc00af46` (outdoor, on the station mast (see the picture))
+* `WYRES_32_SAINTEYNARD_DOOR`: `DevEUI`=`d1d1e80000000032`, `DevAddr`=`fc00ac77` (indoor into a technical room) [9786 messages between 2023-06-23 and 2023-09-28](logs/d1d1e80000000032_campusiot.ndjson.gz), [10102 messages between 2023-09-28 and 2024-04-26](logs/d1d1e80000000032_campusiot-2.ndjson.gz).
+* `WYRES_33_SAINTEYNARD_STATION`: `DevEUI`=`d1d1e80000000033`, `DevAddr`=`fc00af46` (outdoor, on the station mast (see the picture)) [14204 messages between 2023-06-23 and 2023-09-28](logs/d1d1e80000000033_campusiot.ndjson.gz), [45290 messages between 2023-09-28 and 2024-09-16](logs/d1d1e80000000033_campusiot-2.ndjson.gz).
 
 ## Dataset from CampusIoT
 
-The endpoint's frames has been received by indoor and outdoor gateways installed in the Grenoble aera by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3. 
+The endpoint's frames has been received by indoor and outdoor gateways installed in the Grenoble area by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3. 
 
 > The log files (ND-JSON format) have been cleaned using the [scripts](https://gitlab.inria.fr/spelissi/wisec-2022-reproductibility/-/tree/master/code) developed by Samuel Pélissier.
 
-> TTe gateway EUI and name are k-anonymized for . The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). Distance are computed with the GPS-acurate position of the gateways.
+> TTe gateway EUI and name are k-anonymized for pervising locations. The location of the gateways has been [geo-hashed](https://en.wikipedia.org/wiki/Geohash). Distance are computed with the GPS-acurate position of the gateways.
 
 [ND-JSON logs](./logs)
 
