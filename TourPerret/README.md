@@ -27,7 +27,7 @@ One endpoint ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) is registered on [
 
 The `tourperret.ndjson.gz`  file contains a dataset of 421937 messages received between 2021-06-25 and 2023-06-23 (2 years). The archive file is available on the [PerSCiDO plateform](https://perscido.univ-grenoble-alpes.fr/datasets/DS395).
 
-The `tourperret-2.ndjson.gz` [ndjson](http://ndjson.org/) file contains a dataset of 443129 messages received between 2023-06-23 and 2024-10-08 (1 year 4 months). This log file contains 3 new [endpoints Wyres](./endpoints.json) installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
+The `tourperret-2.ndjson.gz` file contains a dataset of 443129 messages received between 2023-06-23 and 2024-10-08 (1 year 4 months). This log file contains 3 new [endpoints Wyres](./endpoints.json) installed as of October 5, 2023 : `d1d1e80000000055` (DevAddr: `fc00ae69`), `d1d1e80000000056`  (DevAddr: `fc00af97`) , `d1d1e80000000057` (DevAddr: `fc00afb7`).
 
 
 The log files are compressed [ndjson](http://ndjson.org/) files (aka one JSON object per line).
