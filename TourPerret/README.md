@@ -2,7 +2,7 @@
 
 The directory contains the log files of frames sent by [LoRaWAN endpoints](./endpoints.json) installed on the top of [Tour Perret](https://en.wikipedia.org/wiki/Perret_tower_(Grenoble)) in Grenoble, France.
 
-> The Tour Perret, originally called La tour pour regarder les montagnes ("The tower for watching the mountains"), is an observation tower located in Grenoble, in the Paul Mistral public park. It is the first tower built in reinforced concrete in Europe.
+> The Tour Perret, originally called La tour pour regarder les montagnes ("The tower for watching the mountains"), is an observation tower located in Grenoble, in the Paul Mistral public park. It is the first tower built in reinforced concrete in Europe. The Tour Perret is currently in restoration. You can [donate](https://www.fondation-patrimoine.org/les-projets/tour-perret-de-grenoble/79576) for helping the restoration.
 
 The endpoints' frames has been received by indoor and outdoor gateways installed in the Grenoble aera by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3.
 
