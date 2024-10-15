@@ -4,6 +4,8 @@ The dataset contains 95795 LoRaWAN frames sent by endpoints registered on the [H
 
 Frames has been collected between Friday 23 July 2021 14:19:52.154 (1627049992.154) to Friday 23 July 2021 14:19:52.154 (1690271047.756)
 
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Internet of Thing, Sensor networks
+
 ## Endpoints
 
 Endpoints are described into the `endpoints.csv` file:
@@ -41,7 +43,7 @@ GeoJSON files has been generated from `*.ndjson.gz` files. Emitters are in green
 
 ## Citation
 
-Didier Donsez, Olivier Alphand, ["The Helium LoRaWAN frames dataset"](https://github.com/CampusIoT/datasets/tree/main/Helium), 2023, DOI is coming soon.
+Didier Donsez, Olivier Alphand, ["The Helium LoRaWAN frames dataset"](https://github.com/CampusIoT/datasets/tree/main/Helium), 2023, DOI is coming soon. [HAL](https://hal.science/hal-04737506)
 
 ## License
 [ODbL-1.0](LICENSE.txt)
