@@ -15,11 +15,11 @@ Brands and models of the [indoor and outdoor gateways](https://campusiot.github.
 ## Endpoints
 
 * 4x [Elsys EMS](https://www.elsys.se/en/lora-ems/) 
-* 3x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) v2 revC (SX1272, RF switch Skynet new)
+* 4x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md) v2 revC (SX1272, RF switch Skynet new)
 
-The endpoints are installed on four sides (SWW, SSE, NEE, NNW) of the top of the tower (into IP55 enclosures for Elsys EMS) and inside the tower.
+The [endpoints](endpoints.json) are installed on four sides (SWW, SSE, NEE, NNW) of the top of the tower (into IP55 enclosures for Elsys EMS) and inside the tower.
 
-Six endpoints (3x [Elsys EMS](https://www.elsys.se/en/lora-ems/) and 3x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md)) are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS with as OTAA Class A endpoint. ADR is enabled.
+Seven endpoints (3x [Elsys EMS](https://www.elsys.se/en/lora-ems/) and 4x [Wyres Base board](https://github.com/CampusIoT/RIOT-wyres/blob/main/boards/wyres_base/README.md)) are registered on [Chirpstack](https://www.chirpstack.io/) v3 LNS with as OTAA Class A endpoint. ADR is enabled.
 
 One endpoint ([Elsys EMS](https://www.elsys.se/en/lora-ems/)) is registered on [Helium LoRaWAN network](https://www.helium.com/lorawan) with as OTAA Class A endpoint. ADR is enabled.
 
