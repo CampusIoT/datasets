@@ -4,74 +4,349 @@
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Side SWW",
+        "placement": "Top platform, Side SWW",
+        "operator": "Helium",
         "model": "Elsys EMS",
-        "operator": "Helium"
+        "lorawan-devices": "https://github.com/TheThingsNetwork/lorawan-devices/blob/master/vendor/elsys/ems-door.yaml",
+        "object-decription": {
+            "accMotion": {
+                "description": "Number of detected movements via accelerometer",
+                "unit": "uint8"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            },
+            "dewpoint": {
+                "description": "Dew point",
+                "unit": "C"
+            },
+            "humidity": {
+                "description": "Relative humidity",
+                "unit": "C"
+            },
+            "digital": {
+                "description": "Magnetic switch",
+                "unit": "uint8",
+                "comment": "0 for open, 1 for close"
+            },
+            "pulseAbs": {
+                "description": "Relative pulse count",
+                "unit": "uint16"
+            },
+            "waterleak": {
+                "description": "Water Leak strength or detection",
+                "unit": "0-255"
+            },
+            "x": {
+                "description": "x-axis acceleration",
+                "unit": "Gs"
+            },
+            "y": {
+                "description": "y-axis acceleration",
+                "unit": "Gs"
+            },
+            "z": {
+                "description": "z-axis acceleration",
+                "unit": "Gs"
+            },
+            "vdd": {
+                "description": "Battery voltage",
+                "unit": "mV"
+            }
+        }
     },
     "a81758fffe04b1bf": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Side NEE",
+        "placement": "Top platform, Side NEE",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "netid": "C0002B",
         "model": "Elsys EMS",
-        "operator": "Université Grenoble Alpes - CampusIoT"
+        "lorawan-devices": "https://github.com/TheThingsNetwork/lorawan-devices/blob/master/vendor/elsys/ems-door.yaml",
+        "object-decription": {
+            "accMotion": {
+                "description": "Number of detected movements via accelerometer",
+                "unit": "uint8"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            },
+            "dewpoint": {
+                "description": "Dew point",
+                "unit": "C"
+            },
+            "humidity": {
+                "description": "Relative humidity",
+                "unit": "C"
+            },
+            "digital": {
+                "description": "Magnetic switch",
+                "unit": "uint8",
+                "comment": "0 for open, 1 for close"
+            },
+            "pulseAbs": {
+                "description": "Relative pulse count",
+                "unit": "uint16"
+            },
+            "waterleak": {
+                "description": "Water Leak strength or detection",
+                "unit": "0-255"
+            },
+            "x": {
+                "description": "x-axis acceleration",
+                "unit": "Gs"
+            },
+            "y": {
+                "description": "y-axis acceleration",
+                "unit": "Gs"
+            },
+            "z": {
+                "description": "z-axis acceleration",
+                "unit": "Gs"
+            },
+            "vdd": {
+                "description": "Battery voltage",
+                "unit": "mV"
+            }
+        }
     },
     "a81758fffe04b1c2": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Side NNW",
+        "placement": "Top platform, Side NNW",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "netid": "C0002B",
         "model": "Elsys EMS",
-        "operator": "Université Grenoble Alpes - CampusIoT"
+        "lorawan-devices": "https://github.com/TheThingsNetwork/lorawan-devices/blob/master/vendor/elsys/ems-door.yaml",
+        "object-decription": {
+            "accMotion": {
+                "description": "Number of detected movements via accelerometer",
+                "unit": "uint8"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            },
+            "dewpoint": {
+                "description": "Dew point",
+                "unit": "C"
+            },
+            "humidity": {
+                "description": "Relative humidity",
+                "unit": "C"
+            },
+            "digital": {
+                "description": "Magnetic switch",
+                "unit": "uint8",
+                "comment": "0 for open, 1 for close"
+            },
+            "pulseAbs": {
+                "description": "Relative pulse count",
+                "unit": "uint16"
+            },
+            "waterleak": {
+                "description": "Water Leak strength or detection",
+                "unit": "0-255"
+            },
+            "x": {
+                "description": "x-axis acceleration",
+                "unit": "Gs"
+            },
+            "y": {
+                "description": "y-axis acceleration",
+                "unit": "Gs"
+            },
+            "z": {
+                "description": "z-axis acceleration",
+                "unit": "Gs"
+            },
+            "vdd": {
+                "description": "Battery voltage",
+                "unit": "mV"
+            }
+        }
     },
     "a81758fffe04b1c0": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Side SSE",
+        "placement": "Top platform, Side SSE",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "netid": "C0002B",
         "model": "Elsys EMS",
-        "operator": "Université Grenoble Alpes - CampusIoT"
+        "lorawan-devices": "https://github.com/TheThingsNetwork/lorawan-devices/blob/master/vendor/elsys/ems-door.yaml",
+        "object-decription": {
+            "accMotion": {
+                "description": "Number of detected movements via accelerometer",
+                "unit": "uint8"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            },
+            "dewpoint": {
+                "description": "Dew point",
+                "unit": "C"
+            },
+            "humidity": {
+                "description": "Relative humidity",
+                "unit": "C"
+            },
+            "digital": {
+                "description": "Magnetic switch",
+                "unit": "uint8",
+                "comment": "0 for open, 1 for close"
+            },
+            "pulseAbs": {
+                "description": "Relative pulse count",
+                "unit": "uint16"
+            },
+            "waterleak": {
+                "description": "Water Leak strength or detection",
+                "unit": "0-255"
+            },
+            "x": {
+                "description": "x-axis acceleration",
+                "unit": "Gs"
+            },
+            "y": {
+                "description": "y-axis acceleration",
+                "unit": "Gs"
+            },
+            "z": {
+                "description": "z-axis acceleration",
+                "unit": "Gs"
+            },
+            "vdd": {
+                "description": "Battery voltage",
+                "unit": "mV"
+            }
+        }
     },
     "eb55ac951504d28d": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Side NNE",
+        "placement": "Top platform, Side NNE",
+        "operator": "Université Grenoble Alpes - CampusIoT",
+        "netid": "C0002B",
         "model": "Wyres Base",
-        "operator": "Université Grenoble Alpes - CampusIoT"
+        "object-decoder": "https://github.com/CampusIoT/datasets/blob/main/TourPerret/codec/wyres.js",
+        "object-decription": {
+            "battery": {
+                "description": "Battery voltage",
+                "unit": "V"
+            },
+            "light": {
+                "description": "Ambient light",
+                "unit": "uint8"
+            },
+            "pressure": {
+                "description": "Atmospheric pressure",
+                "unit": "hPa"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            }
+        }
     },
     "d1d1e80000000055": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 290,
-        "installation": "Middle platform, Side SSE",
-        "model": "Wyres Base",
+        "placement": "Middle platform, Side SSE",
+        "placement-since": "2023-10-05",
         "operator": "Université Grenoble Alpes - CampusIoT",
-        "since": "2023-10-05"
+        "netid": "C0002B",
+        "model": "Wyres Base",
+        "object-decoder": "https://github.com/CampusIoT/datasets/blob/main/TourPerret/codec/wyres.js",
+        "object-decription": {
+            "battery": {
+                "description": "Battery voltage",
+                "unit": "V"
+            },
+            "light": {
+                "description": "Ambient light",
+                "unit": "uint8"
+            },
+            "pressure": {
+                "description": "Atmospheric pressure",
+                "unit": "hPa"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            }
+        }
     },
     "d1d1e80000000056": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Side SWW",
-        "model": "Wyres Base",
+        "placement": "Top platform, Side SWW",
+        "placement-since": "2023-10-05",
         "operator": "Université Grenoble Alpes - CampusIoT",
-        "since": "2023-10-05"
+        "netid": "C0002B",
+        "model": "Wyres Base",
+        "object-decoder": "https://github.com/CampusIoT/datasets/blob/main/TourPerret/codec/wyres.js",
+        "object-decription": {
+            "battery": {
+                "description": "Battery voltage",
+                "unit": "V"
+            },
+            "light": {
+                "description": "Ambient light",
+                "unit": "uint8"
+            },
+            "pressure": {
+                "description": "Atmospheric pressure",
+                "unit": "hPa"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            }
+        }
     },
     "d1d1e80000000057": {
         "name": "Tour Perret",
         "latitude": 45.1847,
         "longitude": 5.7352,
         "altitude": 310,
-        "installation": "Top platform, Entrance",
-        "model": "Wyres Base",
+        "placement": "Top platform, Entrance",
+        "placement-since": "2023-10-05",
         "operator": "Université Grenoble Alpes - CampusIoT",
-        "since": "2023-10-05"
+        "netid": "C0002B",
+        "model": "Wyres Base",
+        "object-decoder": "https://github.com/CampusIoT/datasets/blob/main/TourPerret/codec/wyres.js",
+        "object-decription": {
+            "battery": {
+                "description": "Battery voltage",
+                "unit": "V"
+            },
+            "light": {
+                "description": "Ambient light",
+                "unit": "uint8"
+            },
+            "pressure": {
+                "description": "Atmospheric pressure",
+                "unit": "hPa"
+            },
+            "temperature": {
+                "description": "Temperature",
+                "unit": "C"
+            }
+        }
     }
 }
