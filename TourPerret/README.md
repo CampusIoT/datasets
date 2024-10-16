@@ -6,7 +6,7 @@ The directory contains the log files of frames sent by [LoRaWAN endpoints](./end
 
 The endpoints' frames has been received by indoor and outdoor gateways installed in the Grenoble aera by [LIG Lab](https://www.liglab.fr/). The LNS is [Chirpstack](https://www.chirpstack.io/) v3.
 
-Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Internet of Thing, Sensor networks
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Sensor networks
 
 ## Gateways
 
