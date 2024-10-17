@@ -1,6 +1,8 @@
 # The Tour Perret LoRaWAN 2G4 frames dataset
 
-The dataset contains the log files of 1193638 frames sent by A LoRa 2.4 GHz endpoint installed on the top of [Tour Perret](https://en.wikipedia.org/wiki/Perret_tower_(Grenoble)) in Grenoble, France.
+LPWAN (Low Power Wide Area Networks), and particularly technologies like LoRa©/LoRaWAN, play a crucial role in the growth of IoT by providing a robust, energy-efficient, and flexible solution for large-scale applications. The expansion of these networks into the 2.4 GHz band promises to open new fields of application requiring performance in terms of data rate while necessitating effective strategies to coexist with other highly popular wireless communication technologies such as WiFi and Bluetooth in this shared spectrum (2400-2483.5 MHz).
+
+The dataset contains the log files of 1193638 frames sent by a LoRa 2.4 GHz endpoint installed on the top of [Tour Perret](https://en.wikipedia.org/wiki/Perret_tower_(Grenoble)) in Grenoble, France, over one year.
 
 The goal of this dataset is the long-time study of performance and Wifi coexistence of LoRa 2.4 GHz communications in an urban context.
 
@@ -8,7 +10,9 @@ The goal of this dataset is the long-time study of performance and Wifi coexiste
 
 The endpoint's frames has been received by indoor and outdoor 2.4 GHz gateways installed in the Grenoble area by [ANS Innovation](https://www.ans-innovation.fr/) and  [LIG Lab](https://www.liglab.fr/).
 
-## LoRa 2.4 GHz Endpoint
+Keywords: LoRaWAN, LPWAN, LoRa, Internet of Things, Sensor networks, Wifi interferences, Bluetooth interferences, RF immunity
+
+## LoRa 2.4 GHz endpoint
 
 The endpoint `fc00ac20` located on the top of the Tour Perret is an [Olimexino-STM32](https://www.olimex.com/Products/Duino/STM32/OLIMEXINO-STM32/open-source-hardware) board with a STM32F103RBT6 microcontroller and a [Lambda80](https://www.farnell.com/datasheets/2720464.pdf) SPI module (SX1280). 
 The endpoint is powered by a [LiPo battery 4400mAh](https://www.olimex.com/Products/Power/Lipo-battery/BATTERY-LIPO4400mAh/).
@@ -20,7 +24,7 @@ The firmware is a bare-metal firmware developed with STM32Cube IDE.
 The endpoint sends LoRaWAN frames periodically, see the datasets description for the details. 
 
 
-## LoRa 2.4 GHz Gateway
+## LoRa© 2.4 GHz Gateway
 
 The gateway is the Semtech [LoRa® Reference Design for 2.4GHz Gateway Based on SX1280 (SX1280ZXXXXGW1)](https://www.semtech.fr/products/wireless-rf/lora-core/sx1280zxxxxgw1).
 
@@ -104,3 +108,5 @@ Credit: Nicolas Albarel, Didier Donsez
 * [Semtech Physical Layer Proposal 2.4GHz](https://lora-developers.semtech.com/documentation/tech-papers-and-guides/physical-layer-proposal-2.4ghz/)
 * [LoRa® 2.4GHz 3 Channels Single SF Reference Design
 Performance Report](https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001PqL/cdoTFmqf7LlgF4NVLAQcC6y2hjPu25INIHdaXw3bpR4), Rev. 1.0 Semtech, Apr. 2020
+* [TinyGS 2G4 gateway](https://github.com/thingsat/tinygs_2g4station)
+* [LR1120 Mikrobus Board](https://github.com/thingsat/lr1120_mikrobus)
