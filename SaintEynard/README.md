@@ -1,6 +1,6 @@
 # The Saint Eynard LoRaWAN frames dataset
 
-The directory contains the log files of 79382 frames sent by two LoRaWAN endpoints installed on the top of [Fort du Saint Eynard](https://fr.wikipedia.org/wiki/Fort_du_Saint-Eynard). The time range is from 2023-06-23 to 2024-09-16 (~15 months)
+The dataset contains the log files of 79382 frames sent by two LoRaWAN endpoints installed on the top of [Fort du Saint Eynard](https://fr.wikipedia.org/wiki/Fort_du_Saint-Eynard). The time range is from 2023-06-23 to 2024-09-16 (~15 months)
 
 The exact location is [45.23513,5.7617](https://www.openstreetmap.org/search?query=45.23513%2C5.7617#map=19/45.23513/5.76170). The GPS altitude is 1350 meters.
 
