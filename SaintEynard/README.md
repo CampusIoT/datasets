@@ -83,14 +83,14 @@ Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, "The Saint Eyna
 
 ## Gallery
 
-![Saint Eynard](wyres_sainteynard.jpg)
+![Saint Eynard](https://github.com/CampusIoT/datasets/tree/main/SaintEynard/wyres_sainteynard.jpg)
 
 Credit: Mickaël Langlais
 
-![Gateway Multitech Refuge du Gouter](multitech-refugegouter.jpg)
+![Gateway Multitech Refuge du Gouter](https://github.com/CampusIoT/datasets/tree/main/SaintEynard/multitech-refugegouter.jpg)
 
 Credit: Pierre Dubois
 
-![LOS Fort Saint Eynard - Refuge du Gouter](maps-sainteynard-gouter.jpg)
+![LOS Fort Saint Eynard - Refuge du Gouter](https://github.com/CampusIoT/datasets/tree/main/SaintEynard/maps-sainteynard-gouter.jpg)
 
-![Grafana dashboard](grafana.jpg)
+![Grafana dashboard](https://github.com/CampusIoT/datasets/tree/main/SaintEynard/grafana.jpg)
