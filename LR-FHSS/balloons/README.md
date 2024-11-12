@@ -41,12 +41,12 @@ The dataset is available in the [dataset.json](../balloons/dataset/dataset.json)
 - `data_rate`: The corresponding LoRa data rate, for LR-FHSS, it goes from `DR8` to `DR11`
 - `tx_power_dbm`: Tx power of the frame, goes from 0 to 16 dBm.
 - `rssi_dbm`: Received signal intensity, in dBm
-- `ballon_id`: Id of the ballon that sent the frame, goes from 1 to 3
+- `balloon_id`: Id of the ballon that sent the frame, goes from 1 to 3
 - `estimated_lat_lon_alt`: Estimated position of the ballon when the end device sent the frame
 
 The values are directly avaliable from the gateway logs, except for: 
 - the `data_rate`, which is infered from the `coding_rate` and `channel_width`.
-- the `ballon_id`, infered from the `dev_addr`
+- the `balloon_id`, infered from the `dev_addr`
 - the `estimated_lat_lon_alt`, infered from the `rx_timestamp_ms` and the logs from the IRMA gps tracker on the balloons.
 
 
