@@ -23,6 +23,9 @@ Device 4 (dev addr , dev EUI) Balloon 3
 260B83C4
 70B3D57ED0066804
 ```
+The end devices were runing a [modified version](https://github.com/thingsat/lr-fhss/tree/main/firmware) of the LR-FHSS [application sample code](https://github.com/Lora-net/SWSD003/tree/master/lr11xx/apps/lrfhss) found in the [Lora-net repository](https://github.com/Lora-net). 
+
+The gateway was running a custom LR-FHSS enabled firmware provided by semtech.
 
 ## Dataset 
 
