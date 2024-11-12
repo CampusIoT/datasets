@@ -44,4 +44,14 @@ The dataset is available in the [dataset.json](../balloons/dataset/dataset.json)
 The values are directly avaliable from the gateway logs, except for: 
 - the `data_rate`, which is infered from the `coding_rate` and `channel_width`.
 - the `nacell_number`, infered from the `dev_addr`
-- the `estimated_lat_lon_alt`, infered from the `rx_timestamp_ms` and the logs from the IRMA sensor. 
+- the `estimated_lat_lon_alt`, infered from the `rx_timestamp_ms` and the logs from the IRMA gps tracker on the balloons.
+
+
+## Flight 
+
+A detailed explanation of the aim of the flight and module installed on board is available on the [Thingsat repository](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/tree/master/balloons/2024-05-24).
+
+## Authors
+- Florent Dobler (Université Genoble Alpes LIG)
+- Didier Donsez (Université Genoble Alpes LIG)
+- Leo Cordier (Université Genoble Alpes LIG)
