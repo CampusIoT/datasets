@@ -64,6 +64,12 @@ The [NDJSON logfile `ems-tourperret-A81758FFFE04B1C1-2.ndjson.gz`](./ems-tourper
 
 > Distances are computed with the original locations of the emitter and the receiver.
 
+## Battery change log
+
+Endpoints are powered by LS17500 3.6V battery (one per endpoint).
+
+* 2024-11-13: battery change for `d1d1e80000000055`, `d1d1e80000000057`, `eb55ac951504d28d`, `a81758fffe04b1bf, `a81758fffe04b1c1`.
+
 ## Citation
 
 Didier Donsez, Olivier Alphand, Nicolas Albarel, "The Tour Perret LoRaWAN frames dataset", 2023, https://doi.org/10.18709/perscido.2023.06.ds395 [HAL](https://hal.science/hal-04737487)
