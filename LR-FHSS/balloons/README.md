@@ -13,7 +13,6 @@ We used 4 LR-FHSS devices dispatched aboard three stratospheric balloons gondola
 | 2 | 2 | `260BAE81` | `70B3D57ED0066806` | 
 | 3 | 2 | `260B9030` | `70B3D57ED0066805` | 
 | 4 | 3 | `260B83C4` | `70B3D57ED0066804` |
-. 
 
 The end devices are four [LR1120 development kits](https://www.semtech.com/products/wireless-rf/lora-edge/lr1120dvk1tbks), from Semtech, runing a [modified version](https://github.com/thingsat/lr-fhss/tree/main/firmware) of the LR-FHSS [application sample code](https://github.com/Lora-net/SWSD003/tree/master/lr11xx/apps/lrfhss) found in the [Lora-net repository](https://github.com/Lora-net). 
 
