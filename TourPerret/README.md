@@ -68,6 +68,7 @@ The [NDJSON logfile `ems-tourperret-A81758FFFE04B1C1-2.ndjson.gz`](./ems-tourper
 
 Endpoints are powered by LS17500 3.6V battery (one per endpoint).
 
+* 2023-03-15: battery change for `a81758fffe04b1c2` 
 * 2024-11-13: battery change for `d1d1e80000000055`, `d1d1e80000000057`, `eb55ac951504d28d`, `a81758fffe04b1bf, `a81758fffe04b1c1`.
 
 ## Citation
