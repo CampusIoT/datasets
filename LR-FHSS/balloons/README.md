@@ -25,7 +25,9 @@ The gateway was running a custom LR-FHSS enabled firmware provided by Semtech.
 
 ## Dataset 
 
-The dataset is available in the [dataset.json](../balloons/dataset/dataset.json) file. 
+The dataset is available in the [dataset.json](../balloons/dataset/dataset.json) file.
+The gps data of the balloons is avaiable in the [raw_irma_log](../balloons/dataset/raw_irma_logs/) folder. It is used by the [notebook](../balloons/notebooks/filtering_and_visualization.ipynb) to compute the `estimated_lat_lon_alt` field. The computation is done in the [irma_nacelle_position_parser](../balloons/notebooks/irma_nacelle_position_parser.py) file, and is simply a linear interpolation of the positions over time.
+
 
 ### Fields
 
