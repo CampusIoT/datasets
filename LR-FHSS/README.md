@@ -32,4 +32,8 @@ Marcos Rojas Mardones, Florent Dobler, Léo Cordier, Didier Donsez, Juan Faire, 
 
 ![Balloon setup](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg)
 
+![Urban Deployment map](https://github.com/CampusIoT/datasets/blob/main/LR-FHSS/urban_lyon/Gallery/deployment_map.png)
 
+![Urban End Device](https://github.com/CampusIoT/datasets/blob/main/LR-FHSS/urban_lyon/Gallery/deployment_map.png)
+
+![Urban Gateway](https://github.com/CampusIoT/datasets/blob/main/LR-FHSS/urban_lyon/Gallery/gatwayPicture.png)
