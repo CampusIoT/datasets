@@ -61,6 +61,28 @@ Florent Dobler, Didier Donsez, Léo Cordier, "The Balloon LR-FHSS frames dataset
 - Leo Cordier (Université Genoble Alpes LIG)
 
 
-![Balloon setup](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg)
+
+![Balloon inflating](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/balloon_inflating-01.jpg)
+![Balloon inflating](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/balloon_inflating-02.jpg)
+![Balloon inflating](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/balloon_inflating-03.jpg)
+![Gondola preparation](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/gondola_preparation-01.jpg)
+![Gondola preparation](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/gondola_preparation-02.jpg)
+![Gondola preparation](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/gondola_preparation-03.jpg)
+![Gondola preparation](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/gondola_ready_to_fly.jpg)
+![iBTS](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/ibts_for_lrfhss.jpg)
+![Kerlink iBTS Gateway at Puy de Dome for the LR-FHSS test](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/ibts-puy-de-dome.jpg)
+![Multi frequencies RX station](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/multi-frequencies-rx-station-01.jpg)
+![Multi frequencies RX station](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/multi-frequencies-rx-station-02.jpg)
+![Takeoff](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/takeoff-01.jpg)
+![Takeoff](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/takeoff-02.jpg)
+![Takeoff](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/takeoff-04.jpg)
+![Takeoff](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/takeoff-05.jpg)
+![Burst](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/burst-01.jpg)
+![Burst](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/burst-02.jpg)
+![Recovery](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/recovery.jpg)
+![Recovery](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/raw/master/balloons/2024-05-24/media/balloon_inflating-03.jpg/recovery-02.jpg)
+
+
+
 
 
