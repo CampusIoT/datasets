@@ -52,6 +52,9 @@ The values are directly avaliable from the gateway logs, except for:
 
 A detailed explanation of the aim of the flights and modules installed on board is available on the [Thingsat repository](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/tree/master/balloons/2024-05-24). There are also pictures.
 
+## Citation
+
+Florent Dobler, Didier Donsez, Léo Cordier, "The Balloon LR-FHSS frames dataset", 2025, https://doi.org/10.18709/perscido.2025.04.ds420
 ## Authors
 - Florent Dobler (Université Genoble Alpes LIG)
 - Didier Donsez (Université Genoble Alpes LIG)
