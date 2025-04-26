@@ -110,3 +110,4 @@ Credit: Nicolas Albarel, Didier Donsez
 Performance Report](https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001PqL/cdoTFmqf7LlgF4NVLAQcC6y2hjPu25INIHdaXw3bpR4), Rev. 1.0 Semtech, Apr. 2020
 * [TinyGS 2G4 gateway](https://github.com/thingsat/tinygs_2g4station)
 * [LR1120 Mikrobus Board](https://github.com/thingsat/lr1120_mikrobus)
+* Gwendoline Hochet Derévianckine, [Feasibility and Performance of a LoRa 2.4 GHz Network](https://pastel.hal.science/INSA-LYON-THESES/tel-04858023v1), PhD Thesis, INSA de Lyon, 2024.
