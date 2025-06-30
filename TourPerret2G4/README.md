@@ -101,6 +101,7 @@ Credit: Nicolas Albarel, Didier Donsez
 ![Tour Perret](./media/tourperret_01.jpg)
 ![Eastern panorama from the Tour Perret top roof](./media/tourperret_top_pano_east.jpg)
 ![LoRaWAN 2.4GHz endpoint](./media/ans-tester-2g4.jpg)
+![LoRaWAN 2.4GHz endpoint](./media/top_perret_tower.jpg)
 
 
 ## References
