@@ -112,6 +112,7 @@ gunzip -c tourperret-2.log.gz | jq . | more
 Credit: Didier Donsez, Nicolas Albarel, Nicolas Palix
 ![Tour Perret](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/tourperret_01.jpg)
 ![Eastern panorama from the Tour Perret top roof](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/tourperret_top_pano_east.jpg)
+![LoRa endpoints](./media/top_perret_tower.jpg)
 ![Elsys EMS](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/elsys_ems_tourperret_01.jpg)
 ![Elsys EMS](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/elsys_ems_tourperret_02.jpg)
 ![Elsys EMS and Wyres](https://github.com/CampusIoT/datasets/blob/main/TourPerret/media/elsys_ems_wyres_tourperret_03.jpg)
