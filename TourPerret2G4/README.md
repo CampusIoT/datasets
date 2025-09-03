@@ -77,6 +77,10 @@ For instance:
 
 Nicolas Albarel, Didier Donsez, Olivier Alphand, "The Tour Perret LoRa 2G4 frames dataset", 2023, [doi:10.18709/perscido.2023.07.ds397](https://www.doi.org/10.18709/perscido.2023.07.ds397)
 
+## Publications
+
+* Nicolas Albarel, Olivier Alphand, Didier Donsez. REX in-vivo LoRa© 2.4GHz. Journées du GDR RSD, Jan 2022, Villerbanne, France. [⟨hal-04739976⟩](https://hal.science/hal-04739976v1)
+
 ## Authors
 
 * Nicolas Albarel ([ANS Innovation](https://www.ans-innovation.fr/))
