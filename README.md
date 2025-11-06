@@ -9,6 +9,8 @@
 * Didier Donsez, Olivier Alphand, ["The Helium LoRaWAN frames dataset"](https://github.com/CampusIoT/datasets/tree/main/Helium), 2023, DOI is coming soon: 95795 LoRaWAN entries.
 * Louis Closson, Didier Donsez, Jean-Luc Baudouin, Denis Trystram, Christophe Cerin, "[BuildPred : A smart tertiary building dataset](./BuildPred)", 2023, DOI: [doi:10.18709/perscido.2023.08.ds398](https://doi.org/10.18709/perscido.2023.08.ds398)
 * Didier Donsez, Pierre Dubois, Mickael Langlais, Olivier Alphand, ["The Saint Eynard LoRaWAN frames dataset"](./SaintEynard), Coming soon
+* Marcos Rojas Mardones, Florent Dobler, Léo Cordier, Didier Donsez, Juan Faire, Oana Iova, "[The LR-FHSS frames dataset](LR-FHSS)", 2025, https://doi.org/10.18709/perscido.2025.04.ds421
+
 
 See also [CampusIoT @ Kaggle](https://www.kaggle.com/campusiot/datasets)
 
