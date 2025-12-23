@@ -6,7 +6,11 @@
 
 ## Summary
 
-The Fast Long Range Communication (FLRC) modulation, implemented in several Semtech transceivers from the SX128x and LR202x families, achieves significantly higher data rates than LoRa Chirp Spread Spectrum (CSS) modulation while maintaining a continuous receiver sensitivity. This characteristic provides a favorable trade-off between throughput, range, and link robustness. This dataset contains the radio metadata of series of experiments conducted in the 2.4 GHz ISM band with Semtech SX1280 transceivers across multiple sites with heterogeneous radio propagation conditions (building, LoS).
+The Fast Long Range Communication (FLRC) modulation, implemented in several Semtech transceivers from the SX128x and LR202x families, achieves significantly higher data rates than LoRa Chirp Spread Spectrum (CSS) modulation while maintaining a continuous receiver sensitivity. This characteristic provides a favorable trade-off between throughput, range, and link robustness.
+
+Experimental characterizations of FLRC technology remain relatively scarce in the literature. Existing studies focus primarily on analytical modeling or simulation-based evaluations of FLRC performance, often relying on idealized channel assumptions. A few experimental works report preliminary measurements in controlled or laboratory environments, indicating that FLRC can significantly outperform LoRa CSS in terms of achievable data rates while maintaining comparable receiver sensitivity under favorable signal-to-noise ratio conditions.
+
+This dataset contains both FLRC radio metadatas and LoRa CSS (for reference) radio metadatas of series of experiments conducted in the 2.4 GHz ISM band with Semtech SX1280 transceivers across multiple sites with heterogeneous radio propagation conditions (building, LoS).
 
 ## Description
 
