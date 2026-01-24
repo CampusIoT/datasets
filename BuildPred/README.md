@@ -85,6 +85,10 @@ DOI = {10.3390/info15020094}
 }
 ```
 
+## Teaching
+
+* [Homework #2 for UE Introduction to Database Systems, Computer Sciences Department, Polytech Grenoble, Grenoble INP, UGA](https://github.com/donsez/bd/tree/main/labs/2526-2-digitaltwin)
+
 ## Licence
 
 [ODbL-1.0](https://spdx.org/licenses/ODbL-1.0.html#licenseText)
